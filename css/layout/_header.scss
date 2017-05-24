@@ -1,0 +1,44 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: $headerColor;
+  height: 90px;
+  position: relative;
+}
+
+.menuBig{
+  display: flex;
+}
+
+@media (max-width:480px){
+  .menuBig{
+    display: none;
+  }
+}
+
+.menuSmall{
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0;
+  background-color: $menuColor;
+  opacity: 0;
+}
+
+@media (min-width:480px){
+   #js-btnMenu{
+    display: none;
+  }
+  #js-menuSmall{
+    display: none;
+  }
+}
+
+.logo{
+  height: 70%;
+}
