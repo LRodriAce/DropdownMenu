@@ -1,17 +1,12 @@
+body {
+  font-family: 'Roboto', sans-serif; }
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
 a {
   text-decoration: none; }
-
-button {
-  width: 40px;
-  height: 40px; }
-
-img {
-  width: 100%;
-  height: 100%; }
 
 body {
   margin: 0; }
@@ -66,8 +61,13 @@ header {
 li {
   list-style: none; }
 
-body {
-  font-family: 'Roboto', sans-serif; }
+.dropDownButton {
+  width: 40px;
+  height: 40px; }
+
+.iconButton {
+  width: 100%;
+  height: 100%; }
 
 .menuSmall {
   -webkit-transition: opacity 0.5s linear;
