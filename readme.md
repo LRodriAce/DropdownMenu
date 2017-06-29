@@ -1,3 +1,3 @@
 # Dropdown Menu
-
-Proyecto para probar un menú dropdown responsive en HTML, CSS con SAAS y JS
+  Responsive dropdown menu.
+  Developed using HTML, CSS with SASS and JavaScript.
